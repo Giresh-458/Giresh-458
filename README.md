@@ -10,7 +10,7 @@
 
 <br/>
 
-**I build AI systems where retrieval does the heavy lifting — and where the model knows when to say "I don't know."**
+**I build AI systems where retrieval does the heavy lifting and where the model knows when to say "I don't know."**
 
 <br/>
 
