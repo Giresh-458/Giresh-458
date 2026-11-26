@@ -28,46 +28,6 @@
 
 Mostly thinking about the unglamorous half of AI: retrieval evaluation, abstention, and keeping tool calls bounded.
 
-## 🧩 Selected work
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🏗 [AI Operations Agent](https://github.com/Giresh-458/ai-operations-agent)
-
-Stateful LangGraph agent for operational workflows. The LLM is the easy part — the scaffolding is the work: intent routing with bounded retries, a corrective-RAG loop that grades its own retrieved evidence and rewrites weak queries, and a human approval gate before anything irreversible executes.
-
-<a href="https://ai-operations-agent.streamlit.app"><img src="https://img.shields.io/badge/Live_Demo-58A6FF?style=flat-square&logo=streamlit&logoColor=white" alt="Live demo" /></a>
-
-</td>
-<td width="50%" valign="top">
-
-### 🏥 [HealthRAG](https://github.com/Giresh-458/Healthcare-Document-RAG-Assitant)
-
-Document QA over clinical PDFs and scans. Hybrid BM25 + dense retrieval fused with Reciprocal Rank Fusion, and a sufficiency gate that abstains instead of answering without evidence. PHI is redacted on the way in.
-
-<a href="https://healthrag.streamlit.app"><img src="https://img.shields.io/badge/Live_Demo-3FB950?style=flat-square&logo=streamlit&logoColor=white" alt="Live demo" /></a>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### ⚡ [Vighna Trading Bot](https://github.com/Giresh-458/Vighna-Trading-Bot)
-
-Listens to Telegram trading channels, parses options and futures signals against a live instrument master, and executes on Angel One's SmartAPI with risk controls. Handles what breaks naive bots — expiry resolution, dual-direction breakouts, and targets that went stale before the signal arrived.
-
-</td>
-<td width="50%" valign="top">
-
-### 📊 [BPoW Simulator](https://github.com/Giresh-458/BPoW_Simulator)
-
-Interactive proof-of-work simulator modelling mining races, randomised network latency, automatic difficulty adjustment and stale-branch pruning — the chain-split behaviour that diagrams describe badly.
-
-</td>
-</tr>
-</table>
 
 ## 🛠 Toolbox
 
